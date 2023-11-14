@@ -1012,6 +1012,28 @@ tft.setTextColor(ST77XX_WHITE);
               life--;}
               if (life<=0){
                 tft.fillScreen(ST77XX_BLACK);
+                   tft.drawRect(1,1,tft.width()-2,tft.height()-2,ST77XX_CYAN);
+
+   tft.setCursor(20,100);
+  tft.setTextColor(ST77XX_MAGENTA,ST77XX_BLACK);
+  tft.setTextSize(2);
+  tft.setTextWrap(true);
+  tft.print("Obrigado por jogar        iSword!");
+   delay(2500);
+
+                tft.fillScreen(ST77XX_BLACK);
+                   tft.drawRect(1,1,tft.width()-2,tft.height()-2,ST77XX_CYAN);
+                     tft.setCursor(30,100);
+  tft.setTextColor(ST77XX_MAGENTA,ST77XX_BLACK);
+  tft.setTextSize(2);
+  tft.setTextWrap(true);
+  tft.print("Voce conseguiu         "); 
+    tft.print(score);  
+     tft.print("  pontos!");
+     delay(2500);
+                tft.fillScreen(ST77XX_BLACK);
+
+
                 score=0;
                 cnt=1;
                 return;
@@ -1120,6 +1142,28 @@ tft.setTextColor(ST77XX_WHITE);
               life--;}
               if (life<=0){
                 tft.fillScreen(ST77XX_BLACK);
+                 tft.setCursor(20,100);
+                                    tft.drawRect(1,1,tft.width()-2,tft.height()-2,ST77XX_CYAN);
+
+  tft.setTextColor(ST77XX_MAGENTA,ST77XX_BLACK);
+  tft.setTextSize(2);
+  tft.setTextWrap(true);
+  tft.print("Obrigado por jogar        iSword!");
+   delay(2500);
+
+                tft.fillScreen(ST77XX_BLACK);
+                
+                   tft.drawRect(1,1,tft.width()-2,tft.height()-2,ST77XX_CYAN);
+                     tft.setCursor(30,100);
+  tft.setTextColor(ST77XX_MAGENTA,ST77XX_BLACK);
+  tft.setTextSize(2);
+  tft.setTextWrap(true);
+  tft.print("Voce conseguiu         "); 
+    tft.print(score);  
+     tft.print("  pontos!");
+     delay(2500);
+                tft.fillScreen(ST77XX_BLACK);
+
                 score=0;
                 cnt=1;
                 return;
@@ -1226,6 +1270,28 @@ tft.setTextColor(ST77XX_WHITE);
               life--;}
               if (life<=0){
                 tft.fillScreen(ST77XX_BLACK);
+                                   tft.drawRect(1,1,tft.width()-2,tft.height()-2,ST77XX_CYAN);
+
+                 tft.setCursor(20,100);
+  tft.setTextColor(ST77XX_MAGENTA,ST77XX_BLACK);
+  tft.setTextSize(2);
+  tft.setTextWrap(true);
+  tft.print("Obrigado por jogar        iSword!");
+   delay(2500);
+
+                tft.fillScreen(ST77XX_BLACK);
+                
+                   tft.drawRect(1,1,tft.width()-2,tft.height()-2,ST77XX_CYAN);
+                     tft.setCursor(30,100);
+  tft.setTextColor(ST77XX_MAGENTA,ST77XX_BLACK);
+  tft.setTextSize(2);
+  tft.setTextWrap(true);
+  tft.print("Voce conseguiu         "); 
+    tft.print(score);  
+     tft.print("  pontos!");
+     delay(2500);
+                tft.fillScreen(ST77XX_BLACK);
+
                 score=0;
                 cnt=1;
                 return;
